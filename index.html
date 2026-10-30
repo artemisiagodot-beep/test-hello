@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello World</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#107c10">
+<style>
+  html, body { height: 100%; margin: 0; }
+  body { display: flex; align-items: center; justify-content: center;
+         background: #107c10; color: #fff; font-family: Segoe UI, sans-serif; }
+  h1 { font-size: 8vw; }
+</style>
+</head>
+<body>
+<h1>Hello World</h1>
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>
